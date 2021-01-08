@@ -1,18 +1,36 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <title>b3q</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function timestamp() {
+        let stamp = "Last Updated:" + " " + document.lastModified;
+        document.getElementById("mod").innerHTML = stamp;
+      }
+    </script>
   </head>
   <body>
-    <h1>b3q</h1>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti,
-      similique?
-    </p>
-    <ul>
-      <li>Testing 1</li>
-      <li>Testing 2</li>
-      <li>Testing 3</li>
-    </ul>
+    <header>
+      <div class="headfoot">
+        <h1>Darren Beck</h1>
+      </div>
+    </header>
+    <div class="mainbody">
+      <h2>CIT 230: Assignment Portal</h2>
+      <hr />
+      <ul>
+        <li>Lesson 02: <a href="#">Assignment Link</a></li>
+        <li>Lesson 03: <a href="#">Assignment Link</a></li>
+        <li>Lesson 04: <a href="#">Link</a> | <a href="#">Link</a></li>
+      </ul>
+    </div>
+    <footer>
+      <div class="headfoot">
+        <p>&#169; 2021 | Darren Beck | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p id="mod"></p>
+      </div>
+    </footer>
   </body>
 </html>
