@@ -1,0 +1,16 @@
+.header {
+    background-color: #405B64;
+    color: white;
+    border-radius: 10px;
+}
+
+.header h1 {
+    padding: 40px;
+}
+
+.footer {
+    background-color: #405B64;
+    color: white;
+    height: 100px;
+    border-radius: 10px;
+}

@@ -4,16 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script>
-      function timestamp() {
-        let stamp = "Last Updated:" + " " + document.lastModified;
-        document.getElementById("mod").innerHTML = stamp;
-      }
-    </script>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <header>
-      <div class="headfoot">
+      <div class="header">
         <h1>Darren Beck</h1>
       </div>
     </header>
@@ -27,9 +22,13 @@
       </ul>
     </div>
     <footer>
-      <div class="headfoot">
+      <div class="footer">
         <p>&#169; 2021 | Darren Beck | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-        <p id="mod"></p>
+        <p>
+          <script>
+            document.write('Last Updated: ' + document.lastModified);
+          </script>
+        </p>
       </div>
     </footer>
   </body>
