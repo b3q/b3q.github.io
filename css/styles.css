@@ -23,6 +23,10 @@ body {
     color:  #405B64;
 }
 
+.mainbody ul {
+    line-height: 130%;
+}
+
 .header img {
     float: right;
     margin: 30px 40px;
