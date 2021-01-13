@@ -10,33 +10,33 @@ body {
     margin: auto;
 }
 
-.header {
+header {
     background-color: #405B64;
     color: white;
     border-radius: 10px;
 }
 
-.header h1 {
+header h1 {
     padding: 40px 70px;
     font-size: 4em;
 }
 
-.mainbody a {
+main a {
     color:  #405B64;
 }
 
-.mainbody ul {
+main ul {
     line-height: 130%;
 }
 
-.header img {
+header img {
     float: right;
     margin: 30px 40px;
     padding: 0;
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.footer {
+footer {
     background-color: #405B64;
     color: white;
     border-radius: 10px;
@@ -44,6 +44,6 @@ body {
     text-align: center;
 }
 
-.footer a {
+footer a {
     color: white;
 }
