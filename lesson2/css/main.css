@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #0A5C9A;
+    padding: 2em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+header h1, h2 {
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    margin-top: 1em;
+}
+
+main section {
+    background-color: #D6D6D6;
+    border-radius: 10px;
+}
+
+
+main p {
+    color: #404040;
+}
+
+main section img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+main section a {
+    color: #0A5C9A;
+}
+
+.designs {
+    padding: .5em;
+}
+
+main section h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #0A5C9A;
+    color: white;
+    padding: .5em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main section h4 {
+    margin-top: 0;
+    margin-bottom: .4em;
+    color: #404040;
+}
+
+main section p {
+    margin-top: .2em;
+}
+
+footer {
+    background-color: #0A5C9A;
+    color: white;
+    padding: 1.5em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+/* Tablet View ********/
+@media only screen and (min-width: 37.5em) {
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Big View ********/
+@media only screen and (min-width: 60em) {
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
