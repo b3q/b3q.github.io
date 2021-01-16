@@ -70,7 +70,7 @@ main section p {
 }
 
 main section h3 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-top: 0;
     margin-bottom: 0;
     background-color: #0A5C9A;
@@ -118,6 +118,10 @@ footer a {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    main section h3 {
+        font-size: 1.5em;
+    }
 }
 
 /* Big View ********/
@@ -133,5 +137,9 @@ footer a {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main section h3 {
+        font-size: 1.5em;
     }
 }
