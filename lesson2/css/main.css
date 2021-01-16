@@ -47,11 +47,16 @@ main section a {
     color: #0A5C9A;
 }
 
+main section p {
+    line-height: 1.5em;
+}
+
 .designs {
     padding: .5em;
 }
 
 main section h3 {
+    font-size: 1.5em;
     margin-top: 0;
     margin-bottom: 0;
     background-color: #0A5C9A;
@@ -65,6 +70,8 @@ main section h4 {
     margin-top: 0;
     margin-bottom: .4em;
     color: #404040;
+    font-size: 1.2em;
+    padding: .5em 0;
 }
 
 main section p {
