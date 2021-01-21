@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+body {
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+    color: #474747;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Archivo Black', sans-serif;;
+}
+
+header {
+    background-color: #0A5C9A;
+    padding: 2em;
+    margin-top: 1em;
+    text-align: center;
+    border-bottom: white;
+    border-bottom-width: .3em;
+    border-bottom-style: solid;
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+	background-color: #0A5C9A;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    background-color: #F57600;
+}
+
+main img {
+    width: 300px;
+}
+
+main a {
+    color: #F57600;
+    text-decoration: none;
+}
+
+main p, ul li {
+    line-height: 1.5em;
+}
+
+.maincolor {
+    background-color: #0A5C9A;
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+.acsentcolor {
+    background-color: #F57600;
+    width: 200px;
+    height: 50px;
+}
+
+.textcolor {
+    background-color: #474747;
+    width: 200px;
+    height: 50px;
+    color: white;
+}
+
+.headtextcolor {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+}
+
+table {
+    margin: 2em;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 1em;
+    border: 1px solid #0A5C9A;
+    text-align: center;
+}
+
+footer {
+    background-color: #0A5C9A;
+    color: white;
+    padding: 1.5em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+
+	/* Flex *********************/
+    nav ul { 
+        display: flex;
+    }
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
+
+    main img {
+        width: 500px;
+    }
