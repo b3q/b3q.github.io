@@ -75,6 +75,7 @@ main p, ul li {
     background-color: #F57600;
     width: 200px;
     height: 50px;
+    color: white;
 }
 
 .textcolor {
