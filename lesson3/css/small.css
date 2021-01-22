@@ -92,7 +92,8 @@ main p, ul li {
 }
 
 table {
-    margin: 2em;
+    width: 100%;
+    margin: 2em 0;
     border-collapse: collapse;
 }
 
@@ -126,5 +127,9 @@ footer a {
     }
 
     main img {
+        width: 500px;
+    }
+
+    table {
         width: 500px;
     }
