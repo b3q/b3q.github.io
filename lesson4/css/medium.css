@@ -17,5 +17,9 @@
     
     .navigation li:first-child {
 		display: none;
-	}
+  }
+  
+  body {
+    max-width: 1024px;
+  }
 }
