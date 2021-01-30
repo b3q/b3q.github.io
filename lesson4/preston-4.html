@@ -11,23 +11,24 @@
 <body>
     <header>
         <img src="img/horizon-forecast-sun.png" alt="weather logo">
-        <h1>Horizon Forecast</h1>
-        <div class="motto">Always look to the horizon!</div>
+        <div class="headertext">
+            <h1>Horizon Forecast</h1>
+            <div class="motto">Always look to the horizon!</div>
+        </div>
     </header>
     <script src="js/hambutton.js"></script>
     <nav>
-        <ul class="navigation">
+        <ul class="navigation hf-max-width">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Feedback</a></li>
-            <li><a href="#">History</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="hf-max-width">
         <h2>Preston Idaho</h2>
         <section>
             <div><h3>Content 1</h3></div>
@@ -37,9 +38,11 @@
         </section>
     </main>
     <footer>
-        <p>&#169; 2021 | Darren Beck | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-        <p id="thedate"></p>
-        <script src="js/datetoday.js"></script>
+        <div>
+            <p>&#169; 2021 | Darren Beck | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="thedate"></p>
+            <script src="js/datetoday.js"></script>
+        </div>
     </footer>
 </body>
 </html>

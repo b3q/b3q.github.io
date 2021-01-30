@@ -1,25 +1,37 @@
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 
-	/* Flex *********************/
-    .navigation {
-        display: flex;
-    }
-
-    .navigation li {
-		display: block;
-        flex: 1 1 auto;
-    }
-    
-    .navigation a {
-		text-align: center;
-    }
-    
-    .navigation li:first-child {
-		display: none;
+  /* Flex *********************/
+  .navigation {
+    display: flex;
   }
-  
-  body {
-    max-width: 1140px;
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+    white-space: nowrap;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  nav {
+    margin-top: .1em;
+  }
+
+  .hf-max-width {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  footer {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 1em;
   }
 }
