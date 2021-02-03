@@ -42,8 +42,12 @@
   }
 
   .imghead {
-    margin-left: 50px;
-  }  
+    margin-left: 20px;
+  }
+
+  /* .imghead {
+    width: 20%;
+  } */
 
   .headertext {
     font-size: 1.5rem;
