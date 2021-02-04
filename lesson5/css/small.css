@@ -88,6 +88,10 @@ nav {
 	background-color: #F57600;
 }
 
+.navigation .active {
+    background-color: #F57600;
+}
+
 .hf-max-width h2 {
     text-align: left;
     margin-left: 10px;
