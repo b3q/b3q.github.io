@@ -144,7 +144,7 @@ nav {
 }
 
 .fiveday-grid {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
