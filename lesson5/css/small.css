@@ -139,6 +139,10 @@ nav {
     display: none;
 }
 
+.fiveday-section h3 {
+    text-align: center;
+}
+
 .fiveday-grid {
     width: 60%;
     margin: 0 auto;
