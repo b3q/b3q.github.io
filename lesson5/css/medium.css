@@ -35,29 +35,6 @@
     margin-top: 1em;
   }
 
-  .header-layout {
-    display: flex;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  .imghead {
-    margin-left: 20px;
-  }
-
-  /* .imghead {
-    width: 20%;
-  } */
-
-  .headertext {
-    font-size: 1.5rem;
-    flex: 1 1 auto;
-    margin-top: 80px;
-    margin-left: 20px;
-    white-space: nowrap;
-    text-align: left;
-  }
-
   .fiveday-section {
     display: block;
   }
