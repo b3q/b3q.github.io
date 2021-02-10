@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon Forecast</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div class="banner-sat">
+        <p>
+            Saturday = Preston Pancakes in the park! <br>
+            9:00 AM Saturday at the city park.
+        </p>
+    </div>
+    <header>
+        <div class="header-layout">
+            <img class="imghead" src="img/horizon-forecast-sun.png" alt="weather logo">
+            <div class="headertext">
+                <h1>Horizon Forecast</h1>
+                <div class="motto">Always look to the horizon!</div>
+            </div>
+        </div>
+    </header>
+    <script src="js/hambutton.js"></script>
+    <nav>
+        <ul class="navigation hf-max-width">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a class="active" href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="hf-max-width">
+        <h2>Preston Idaho</h2>
+        <section class="heroimg">
+            <picture>
+                <source media="(max-width: 575px)" srcset="img/hero-img-575.png">
+                <source media="(max-width: 700px)" srcset="img/hero-img-700.png">
+                <img src="img/hero-img-900.png" alt="Sunset">
+            </picture>
+            
+
+            <div class="summarybox">
+                <div class="sum-title">Weather Summary</div>
+                <div class="sum-grid">
+                    <div class="sum">Currently:</div>
+                    <div class="sum-value">Sunny</div>
+                    <div class="sum">High:</div>
+                    <div class="sum-value">80&#8457;</div>
+                    <div class="sum">Wind Chill:</div>
+                    <div class="sum-value">&#8457;</div>
+                    <div class="sum">Humidity:</div>
+                    <div class="sum-value">20%</div>
+                    <div class="sum">Wind Speed:</div>
+                    <div class="sum-value">2 mph</div>
+                </div>
+            </div>
+        </section>
+        <section class="fiveday-section">
+            <h3>5 Day Forecast</h3>
+            <div class="fiveday-grid">
+                <div class="days">Monday</div>
+                <div class="days">Tuesday</div>
+                <div class="days">Wednesday</div>
+                <div class="days">Thursday</div>
+                <div class="days">Friday</div>
+                <div class="weatherimg">
+                    <img src="img/sun-icon.png" alt="sun icon">
+                </div>
+                <div class="weatherimg">
+                    <img src="img/sun-icon.png" alt="sun icon">
+                </div>
+                <div class="weatherimg">
+                    <img src="img/sun-icon.png" alt="sun icon">
+                </div>
+                <div class="weatherimg">
+                    <img src="img/sun-icon.png" alt="sun icon">
+                </div>
+                <div class="weatherimg">
+                    <img src="img/sun-icon.png" alt="sun icon">
+                </div>
+
+                <div class="weathertemp">80&#8457;</div>
+                <div class="weathertemp">90&#8457;</div>
+                <div class="weathertemp">85&#8457;</div>
+                <div class="weathertemp">84&#8457;</div>
+                <div class="weathertemp">89&#8457;</div>
+            </div>
+        </section>
+        <section class="article gensection">
+            <img src="img/pumkins.jpg" alt="Pumkins">
+            <h3>Amazing Little Pumkins</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, 
+                perferendis assumenda ducimus dolorem tempore odio ullam. 
+                Eligendi sapiente molestiae, pariatur facere ipsum doloribus 
+                tempore placeat doloremque natus, labore inventore id reiciendis, 
+                quasi iure iste voluptas molestias voluptates beatae. Quos nemo 
+                praesentium ad magni et laudantium minus assumenda laboriosam explicabo 
+                amet.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi blanditiis, 
+                molestias cum at provident omnis animi assumenda tempora architecto illo 
+                deleniti ipsam ratione, voluptas eum repellat dolore quae quo reprehenderit?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, 
+                perferendis assumenda ducimus dolorem tempore odio ullam. 
+                Eligendi sapiente molestiae, pariatur facere ipsum doloribus 
+                tempore placeat doloremque natus, labore inventore id reiciendis, 
+                quasi iure iste voluptas molestias voluptates beatae. Quos nemo 
+                praesentium ad magni et laudantium minus assumenda laboriosam explicabo 
+                amet. Eligendi sapiente molestiae, pariatur facere ipsum doloribus 
+                tempore placeat doloremque natus, labore inventore id reiciendis, 
+                quasi iure iste voluptas molestias voluptates beatae. Quos nemo 
+                praesentium ad magni et laudantium minus assumenda laboriosam explicabo 
+                amet.
+            </p>
+        </section>
+        <section class="maparea gensection">
+            <img src="img/preston-map.png" alt="Map of Preston">
+            <div class="contactinfo">
+                <h3>Horizon Forecast</h3>
+                <p>
+                    30 N. 1st E. <br>
+                    Preston, ID 83263
+                </p>
+                <p>
+                    &#9742; 999-999-9999 <br>
+                    &#9993; info@horizonforecast.com
+                </p>
+                <p class="social-icons">
+                    <img src="img/facebook.png" alt="Facebook Icon">
+                    <img src="img/pinterest.png" alt="Pinterest Icon">
+                    <img src="img/twitter.png" alt="Twitter Icon">
+                </p>
+            </div>
+           
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>&#169; 2021 | Darren Beck | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="thedate"></p>
+            <script src="js/datetoday.js"></script>
+            <script src="js/bannerad.js"></script>
+        </div>
+    </footer>
+</body>
+</html>
