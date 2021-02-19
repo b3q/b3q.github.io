@@ -24,7 +24,7 @@
         grid-gap: 20px;
     }
 
-    picture.gallery-pics:hover {
+    figure.gallery-pics:hover {
         /* border: 2px solid red; */
         /* box-shadow: 0 0 10px #F57600; */
         box-shadow: 0 5px 10px #262626;
@@ -36,7 +36,7 @@
         padding: 5px 0 10px 0;
     }
 
-    picture.gallery-pics {
+    figure.gallery-pics {
         border: 2px solid gray;
     }
 
