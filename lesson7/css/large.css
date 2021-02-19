@@ -30,14 +30,4 @@
         box-shadow: 0 5px 10px #262626;
     }
 
-    .gallery-pics figcaption {
-        display: block;
-        text-align: center;
-        padding: 5px 0 10px 0;
-    }
-
-    figure.gallery-pics {
-        border: 2px solid gray;
-    }
-
 }
