@@ -59,5 +59,15 @@
 
   .maparea {
     display: flex;
-}
+  }
+
+  form label.top input, form label.top select {
+    width: 96%;
+    max-width: 100%;
+  }
+
+  form textarea {
+    width: 92%;
+    max-width: 92%;
+  }
 }
