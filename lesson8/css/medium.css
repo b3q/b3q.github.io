@@ -1,0 +1,63 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+
+  /* Flex *********************/
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+    white-space: nowrap;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  nav {
+    margin-top: .1em;
+  }
+
+  .hf-max-width {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+  footer {
+    /* max-width: 900px; */
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+
+  .fiveday-section {
+    display: block;
+  }
+
+  .article img {
+    float: left;
+    width: 40%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+  .heroimg img {
+    width: 100%;
+  }
+
+  .maparea {
+    display: flex;
+}
+}
