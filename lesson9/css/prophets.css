@@ -2,7 +2,7 @@
 
 body {
     margin: 0 auto;
-    width: 90%;
+    width: 95%;
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -26,6 +26,7 @@ h1 {
     color: white;
     width: 100%;
     border-radius: 10px;
+    min-width: 250px;
 }
 
 .cards section h2,
@@ -36,13 +37,13 @@ h1 {
 }
 
 .cards section h2 {
-    font-size: 2.5em;
+    font-size: 2.0em;
 }
 
 .cards section h4,
 .cards section h5 {
     margin: 10px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .cards section img {
@@ -66,15 +67,16 @@ footer {
 }
 
 /* Medium ***/
-@media only screen and (min-width: 37em) {
+@media only screen and (min-width: 43em) {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 /* Large ***/
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 56em) {
     .cards {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
 }
