@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon Forecast</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div class="banner-sat">
+        <p>
+            Saturday = Preston Pancakes in the park! <br>
+            9:00 AM Saturday at the city park.
+        </p>
+    </div>
+    <header>
+        <div class="header-layout">
+            <img class="imghead" src="img/horizon-forecast-sun.png" alt="weather logo">
+            <div class="headertext">
+                <h1>Horizon Forecast</h1>
+                <div class="motto">Always look to the horizon!</div>
+            </div>
+        </div>
+    </header>
+    <script src="js/hambutton.js"></script>
+    <nav>
+        <ul class="navigation hf-max-width">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-9.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-9.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="hf-max-width">
+        <div class="stormformIntro">
+            <h2>Storm Center Form</h2>
+            <p>If you have information about your current situation and severity level of the current weather please fill out this form. Thank you.</p>
+        </div>
+       
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <label class="top" for="name">Full Name (At Least 5 Characters Please):* <input type="text" name="name" pattern="[A-za-z].{5,}" required></label>
+                <label class="top" for="email">Email: <input type="email" name="email" placeholder="name@domain.com"></label>
+                <label class="top" for="phone">Phone Number:* <input type="tel" name="phone" required></label>
+                <label class="top" for="zipcode">Zip Code:* <input type="number" name="zipcode" required></label>
+                <label class="top" for="date">Storm Date: <input type="date" name="date"></label>
+                <label class="top" for="stormtype">What type of storm?
+                <input list="stormtype" name="stormtyp" id="stormtyp"></label>
+                <datalist id="stormtype">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricaine">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+                <label class="top" for="severity">Storm Severity (Between 0 and 10): </label>
+                <input type="range" name="severity" id="severity" min="0" max="10" value="0">
+                <label class="top" for="region">Storm Region:
+                    <select name="region" id="region">
+                        <option value="">Please Select</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+                <div>Are you in danger?</div>
+                <label class="sbs" for="dangerlevel"><input type="radio" name="dangerlevel" value="yes"> Yes</label>
+                <label class="sbs" for="dangerlevel"><input type="radio" name="dangerlevel" value="maybe"> Maybe</label>
+                <label class="sbs"for="dangerlevel"><input type="radio" name="dangerlevel" value="no"> No</label>
+                <label class="top" for="comments">Additional Comments:</label> 
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </fieldset>
+            <input class="sbmtbtn" type="submit" value="Send Storm Information">
+        </form>
+        
+    </main>
+    <footer>
+        <div>
+            <p>&#169; 2021 | Darren Beck | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <p id="thedate"></p>
+            <script src="js/datetoday.js"></script>
+            <script src="js/bannerad.js"></script>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/fontload.js"></script>
+</body>
+</html>
