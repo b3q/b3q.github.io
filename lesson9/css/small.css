@@ -273,9 +273,8 @@ figure img {
 }
 
 .maparea {
-    display: none;
-    justify-items: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .maparea h3 {
@@ -284,11 +283,15 @@ figure img {
 }
 
 .maparea img {
-    width: 55%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 }
 
 .contactinfo {
-    margin-left: 4em;
+    margin: auto;
+    width: 70%;
 
 }
 
