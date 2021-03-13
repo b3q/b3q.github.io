@@ -11,7 +11,7 @@ fetch(apiURL)
         document.getElementById('windspeed').textContent = jsObject.wind.speed;
         const htemp = parseFloat(jsObject.main.temp_max);
         const ltemp = parseFloat(jsObject.main.temp_min);
-        const avtemp = htemp + ltemp / 2;
+        const avtemp = (htemp + ltemp) / 2;
         const wspeed = parseFloat(jsObject.wind.speed);
         if (avtemp > 50 || wspeed < 3) {
             let f = "N/A";
