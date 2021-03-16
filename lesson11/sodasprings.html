@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horizon Forecast</title>
+    <title>Horizon Forecast - Soda Springs</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -29,29 +29,48 @@
     <nav>
         <ul class="navigation hf-max-width">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="preston.html">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a class="active" href="sodasprings.html">Soda Springs</a></li>
             <li><a href="fishhaven.html">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
     <main class="hf-max-width">
-        <!-- <h2>Welcome</h2> -->
-        <section class="heroimg">
+        <h2>Soda Springs Idaho</h2>
+        <div class="heroimg">
             <picture>
-                <source media="(max-width: 575px)" srcset="img/hero-image-home-575.jpg">
-                <source media="(max-width: 700px)" srcset="img/hero-image-home-700.jpg">
-                <img src="img/hero-image-home-900.jpg" alt="Sunset">
-                <h2 id="heroh2">Welcome to our Communities!</h2>
+                <source media="(max-width: 575px)" srcset="img/hero-sodasprings-575.jpg">
+                <source media="(max-width: 700px)" srcset="img/hero-sodasprings-700.jpg">
+                <img src="img/hero-sodasprings-900.jpg" alt="Sunset">
             </picture>
+            
+            <div class="summarybox">
+                <div class="sum-title">Weather Summary</div>
+                <div class="sum-grid">
+                    <div class="sum">Currently:</div>
+                    <div class="sum-value"><span id="current-weather"></span></div>
+                    <div class="sum">High:</div>
+                    <div class="sum-value"><span id="high-temp"></span>&deg; F</div>
+                    <div class="sum">Wind Chill:</div>
+                    <div class="sum-value"><span id="windchill"></span></div>
+                    <div class="sum">Humidity:</div>
+                    <div class="sum-value"><span id="humid"></span>&#37;</div>
+                    <div class="sum">Wind Speed:</div>
+                    <div class="sum-value"><span id="windspeed"></span> mph</div>
+                </div>
+            </div>
+            <script src="js/weather-sodasprings.js"></script>
+            <!-- <script src="js/windchill.js"></script> -->
+        </div>
+        <h3 id="fivedayheading">5 Day Forecast</h3>
+        <section class="fiveday-section">
+            <script src="js/forecast-sodasprings.js"></script>
         </section>
-        <div class="cards"></div>
-        <script src="js/towns.js"></script>
-        <section class="article gensection frontarticle">
-            <img id="hikerimg" src="img/hiking-weather-600.jpg" alt="Hiker and Mountains">
-            <h2>Hike of the Week</h2>
+        <section class="article gensection">
+            <img src="img/child-640.jpg" alt="Child in tall grass">
+            <h3>Spring Time Activities for Kids</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, 
                 perferendis assumenda ducimus dolorem tempore odio ullam. 
                 Eligendi sapiente molestiae, pariatur facere ipsum doloribus 
