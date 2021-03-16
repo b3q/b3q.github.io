@@ -1,0 +1,116 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 35.5em) {
+
+  /* Flex *********************/
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+    white-space: nowrap;
+  }
+
+  .navigation a {
+    text-align: center;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  nav {
+    margin-top: .1em;
+  }
+
+  .hf-max-width {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+  footer {
+    /* max-width: 900px; */
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+
+  /* .fiveday-section {
+    display: block;
+  } */
+  .fiveday-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1px;
+    width: 70%;
+  }
+
+  .daycard {
+    width: 100%;
+  }
+
+  .article img {
+    float: left;
+    width: 40%;
+    border-radius: 10px;
+    margin: 20px;
+  }
+
+  img#hikerimg {
+    float: right;
+    border: 5px solid #616161;
+  }
+
+  .heroimg img {
+    width: 100%;
+  }
+
+  #heroh2 {
+    font-size: 2.5em;
+}
+
+  .maparea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  /* .cards {
+    display: block;
+  } */
+
+  .cards article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cards article:nth-child(odd) img {
+    grid-column: 2;
+  }
+
+  .cards article:nth-child(odd) .cardinfo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .cardinfo {
+    margin: auto;
+    width: 100%;
+  }
+
+  form label.top input, form label.top select {
+    width: 96%;
+    max-width: 100%;
+  }
+
+  form textarea {
+    width: 92%;
+    max-width: 92%;
+  }
+}
