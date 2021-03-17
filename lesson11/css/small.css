@@ -291,6 +291,29 @@ figure img {
     margin: 10px 5px;
 }
 
+.events {
+    margin-top: 40px;
+}
+
+.eventCard {
+    background-color: #0A5C9A;
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.eventCard h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.eventCard p {
+    margin: .5em 0;
+}
+
 .gensection {
     background-color: rgb(202, 202, 202);
     /* color: white; */

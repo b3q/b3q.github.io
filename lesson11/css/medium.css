@@ -104,6 +104,10 @@
     width: 100%;
   }
 
+  .eventCard {
+    width: 70%;
+  }
+
   form label.top input, form label.top select {
     width: 96%;
     max-width: 100%;
