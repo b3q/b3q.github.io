@@ -292,18 +292,16 @@ figure img {
 }
 
 .events {
-    margin-top: 40px;
+    margin-top: -5px;
 }
 
 .eventCard {
     background-color: #0A5C9A;
     color: white;
     margin: 0 auto;
-    width: 90%;
-    padding: 10px;
-    border-radius: 10px;
+    width: 100%;
+    padding: 10px 0;
     text-align: center;
-    border-top: 10px solid #D0D0D0;
 }
 
 .eventCard h2 {
