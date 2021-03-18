@@ -29,6 +29,7 @@ fetch(requestURL)
         population.textContent = 'Population: ' + towns[i].currentPopulation;
         rainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
         img.setAttribute('src', 'img/' + towns[i].photo);
+        img.setAttribute('alt', towns[i].name);
 
         card.appendChild(cardimg);
         card.appendChild(cardinfo);

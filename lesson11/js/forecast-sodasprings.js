@@ -20,6 +20,7 @@ fetch(requestURL)
                 daytitle.textContent = dayofweek;
                 let img = document.createElement('img');
                 img.setAttribute('src', `https://openweathermap.org/img/wn/${days[i].weather[0].icon}.png`);
+                img.setAttribute('alt', "forecast image");
                 let daytemp = document.createElement('div');
                 daytemp.textContent = `${days[i].main.temp}°F`;
                 daytemp.className = "daytemp";
