@@ -314,6 +314,7 @@ figure img {
 }
 
 .gensection {
+    position: relative;
     background-color: rgb(202, 202, 202);
     /* color: white; */
     margin: 40px 0;
@@ -321,14 +322,24 @@ figure img {
     /* border-top: 20px solid #616161; */
 }
 
+.article {
+    min-height: 400px;
+}
+
 .article img {
-    width: 100%;
+    display: inline-block;
+    width: 10%;
     border-radius: 10px;
+}
+
+.cleared {
+    clear: right;
 }
 
 .maparea {
     display: grid;
     grid-template-columns: 1fr;
+    clear: both;
 }
 
 .maparea h3 {
@@ -363,6 +374,10 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 1em;
+}
+
+#footerimg {
+    width: 300px;
 }
 
 /* section div {
