@@ -332,6 +332,18 @@ figure img {
     border-radius: 10px;
 }
 
+.article a {
+    color: #0A5C9A;
+}
+
+.article a:visited {
+    color: #0A5C9A;
+}
+
+.article a:hover {
+    color: white;
+}
+
 .cleared {
     clear: right;
 }
