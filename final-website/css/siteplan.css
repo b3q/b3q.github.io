@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Noto+Sans+TC&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Lexend', sans-serif;    
+    color: #3D3D3D;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #3D3D3D;
+}
+
+img {
+    width: 100%;
+    max-width: 900px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+table td {
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid #C5C9C8;
+}
+
+table h1,
+table h2,
+table h3 {
+    color: white;
+}
+
+.maincolor {
+    background-color: #3A8835;
+}
+
+.acsentcolor1 {
+    background-color: #A1D29D;
+}
+
+.acsentcolor2 {
+    background-color: #546D9C;
+}
+
+.textcolor {
+    background-color: #3B3F3F;
+}
+
+.headtextcolor {
+    background-color: #FFFFFF;
+    color: #3B3F3F;
+}
