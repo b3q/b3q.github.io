@@ -129,27 +129,95 @@ li a.active {
 
 .herosection img {
     width: 100%;
-    background-color: rgb(51, 51, 51, 0.8);
+    background-color: rgb(51, 51, 51, 0.2);
 }
 
 .herotext{
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    /* width: 70%; */
+    width: 80%;
+    background-color: rgb(52, 57, 69, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.herotext h2 {
+    margin-bottom: 0;
+    font-size: .9em;
+}
+
+.herotext p {
+    font-size: .8em;
+    margin-top: 5px;
 }
 
 .actionbutton a {
+    display: block;
+    margin: 0 auto;
     color: white;
-    font-size: 1.2em;
     text-decoration: none;
     background-color: #3A8835;
     padding: 10px 20px;
     border-radius: 10px;
+    margin-top: 20px;
+    max-width: 100px;
 }
 
 .actionbutton a:hover {
     color: #3A8835;
     background-color: white;
+}
+
+.bizbox {
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-bottom: 20px;
+}
+
+.bizbox h2 {
+    color: #3B3F3F;
+}
+
+.bizsection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.bizcard {
+    background-color: #546D9C;
+    color: white;
+    padding: 20px;
+    border-radius: 0;
+}
+
+.contactbox {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+    align-items: center;
+}
+
+.contactinfo {
+    padding: 10px;
+}
+
+.contactbox img {
+    max-width: 300px;
+    margin: 10px;
+    justify-self: center;
+}
+
+footer {
+    background-color: #3A8835;
+}
+
+.socialicons img {
+    max-width: 30px;
+    margin: 10px;
 }

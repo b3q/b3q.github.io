@@ -53,4 +53,44 @@
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
+
+    .actionbutton a {
+        font-size: 1.2em;
+    }
+
+    .herotext{
+        top: 40%;
+        width: 50%;
+    }
+
+    .herotext h2 {
+        font-size: 1.8em;
+    }
+
+    .herotext p {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+
+    .bizcard {
+        border-radius: 10px;
+    }
+
+    .bizsection {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .contactbox {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contactbox img {
+        max-width: 500px;
+        margin: 20px;
+    }
+
+    .socialicons img {
+        max-width: 30px;
+        margin: 10px;
+    }
 }
