@@ -22,19 +22,29 @@ header img {
     max-width: 200px;
 }
 
+.headertext h1 {
+    padding-right: 40px;
+    font-size: 1.5em;
+}
+
 .headerbox {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px 0;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+}
+
+.headerbox img {
+    margin: 0 25px;
 }
 
 .centeritems {
-    align-items: center;
-    margin: auto;
+    /* display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
+    justify-items: center;
 }
 
 .navigation li:first-child {
