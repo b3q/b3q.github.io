@@ -72,12 +72,26 @@
         margin: 10px 0;
     }
 
+    .bizbox h2,
+    .sandyweather h2,
+    .sandyevents h2 {
+        margin-left: 0;
+    }
+
     .bizcard {
         border-radius: 10px;
     }
 
     .bizsection {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .weatherdetails {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .eventdetails {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .contactbox {

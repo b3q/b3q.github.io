@@ -34,21 +34,20 @@
 
     </nav>
     <main>
-        
-            <div class="herosection">
-                <img src="img/wasatch-front-styled.png" alt="Wasatch Front Mountains">
-                <div class="herotext">
-                    <h2 class="heroheading">We Are Here to Help!</h2>
-                    <p>We help you grow your business. Our staff is experienced
-                        and can give you the kick start that you have been looking
-                        for. Come join our group!
-                    </p>
-                    <div class="actionbutton">
-                        <a href="#">Join Now!</a>
-                    </div>
+        <section class="herosection">
+            <img src="img/wasatch-front-styled.png" alt="Wasatch Front Mountains">
+            <div class="herotext">
+                <h2 class="heroheading">We Are Here to Help!</h2>
+                <p>We help you grow your business. Our staff is experienced
+                    and can give you the kick start that you have been looking
+                    for. Come join our group!
+                </p>
+                <div class="actionbutton">
+                    <a href="#">Join Now!</a>
                 </div>
             </div>
-            <div class="bizbox">
+        </section>
+        <section class="bizbox">
             <h2>Sandy Businesses Spotlighted</h2>
             <div class="bizsection">
                 <div class="bizcard">
@@ -90,8 +89,63 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <script src="js/weather-sandy.js"></script>
+        <section class="sandyweather">
+            <h2>Sandy City Weather</h2>
+            <div class="weatherdetails">
+                <div class="currentweather">
+                    <h3>Current Conditions</h3>
+                    <div class="weather-grid">
+                        <div class="weather">Temp:</div>
+                        <div class="weather-value"><span id="temp"></span>&deg;F</div>
+                        <div class="weather">Currently:</div>
+                        <div class="weather-value"><span id="current"></span></div>
+                        <div class="weather">Humidity:</div>
+                        <div class="weather-value"><span id="humidity"></span>&#37;</div>
+                    </div>
 
+                </div>
+                <div class="forecast">
+                    <h3 id="threedayheading">3 Day Forecast</h3>
+                    <section class="threeday-section">
+                        <script src="js/forecast-sandy.js"></script>
+                    </section>
+
+                </div>
+            </div>
+        </section>
+        <section class="sandyevents">
+            <h2>Upcoming Events</h2>
+            <img src="img/wasatch-front-banner2.png" alt="Wasatch Mountains Banner">
+            <div class="eventdetails">
+                <div class="theevent">
+                    <h3>Sandy City Country Fair</h3>
+                    <p>
+                        Location: West of City Hall<br>
+                        Date: May 15, 2021 <br>
+                        <a href="#">More Info...</a>
+                    </p>
+                </div>
+                <div class="theevent">
+                    <h3>Fourth of July Celebration</h3>
+                    <p>
+                        Location: Southtown Mall<br>
+                        Date: July 4, 2021 <br>
+                        <a href="#">More Info...</a>
+                    </p>
+                </div>
+                <div class="theevent">
+                    <h3>Movies at the Park</h3>
+                    <p>
+                        Location: Falcon Park<br>
+                        Date: August 21, 2021 <br>
+                        <a href="#">More Info...</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        
     </main>
     <footer>
         <div class="contactbox">

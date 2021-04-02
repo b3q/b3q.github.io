@@ -177,8 +177,11 @@ li a.active {
     margin-bottom: 20px;
 }
 
-.bizbox h2 {
+.bizbox h2,
+.sandyweather h2,
+.sandyevents h2 {
     color: #3B3F3F;
+    margin-left: 10px;
 }
 
 .bizsection {
@@ -199,6 +202,126 @@ li a.active {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+}
+
+.weatherdetails {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.currentweather {
+    background-color: #3A8835;
+    padding: 10px;
+    color: white;
+}
+
+.forecast {
+    background-color: #D0D0D0;
+    padding: 10px;
+    color: #3B3F3F;
+    border-top: 5px solid #3A8835;
+}
+
+.sandyevents,
+.sandyweather {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.sandyevents img {
+    width: 100%;
+}
+
+.currentweather h3 {
+    text-align: center;
+}
+
+.weather-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.weather {
+    text-align: right;
+}
+
+/*****Forecast Stuff******/
+.daycard {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    /* border: 1px solid white; */
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.daytitle {
+    background-color: #546D9C;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.daytemp {
+    padding: 10px 0;
+}
+
+#threedayheading {
+    text-align: center;
+}
+
+.threeday-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.threeday-section h3 {
+    text-align: center;
+}
+
+.days {
+    background-color: gray;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+/*^^^^Forecast Stuff^^^^**/
+
+.eventdetails {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 10px 0;
+}
+
+.theevent {
+    padding: 20px;
+    color: #3B3F3F;
+    text-align: center;
+    background-color: #D0D0D0;
+}
+
+.theevent a {
+    color: #546D9C;
+}
+
+.theevent h3 {
+    margin-bottom: 0;
+}
+
+.theevent p {
+    margin-top: 5px;
 }
 
 .contactbox {
