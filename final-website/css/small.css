@@ -164,6 +164,10 @@ li a.active {
     margin-top: 5px;
 }
 
+.mtn-banner-img {
+    width: 100%;
+}
+
 .actionbutton a {
     display: block;
     margin: 0 auto;
@@ -333,6 +337,83 @@ li a.active {
 .theevent p {
     margin-top: 5px;
 }
+
+/* -----Form Styling----- */
+form fieldset {
+    margin: 2em;
+    padding: .5rem 2%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    padding: .75rem;
+    width: 90%;
+    max-width: 20rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #3D3D3D;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #3D3D3D;
+}
+
+form input.sbmtbtn {
+    border: none;
+    background-color: #546D9C;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 0 0 20px 8%;
+    width: 100%;
+    max-width: 20rem;
+    font-weight: bolder;
+}
+
+form input.sbmtbtn:hover {
+    background-color: #A1D29D;
+}
+
+form label.top input:required {
+    border-left: 6px solid red;
+}
+
+form label.top input:required:valid {
+    border-left: 6px solid green;
+}
+
+form textarea {
+    width: 80%;
+    max-width: 20rem;
+    height: 100px;
+    border-radius: 10px;
+    color: #3D3D3D;
+    border: 1px solid #3D3D3D;
+    background-color: rgba(0,0,0,0.1);
+    padding: 1.5rem;
+}
+
+.joinIntro {
+    margin: 0 0 0 2%;
+    width: 80%;
+    color: #3D3D3D;
+}
+
+.joinIntro p {
+    margin: 0 0 0 2%;
+    line-height: 1.7em;
+}
+/* ------^^^^-------- */
 
 .contactbox {
     display: grid;

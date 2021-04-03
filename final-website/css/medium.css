@@ -94,6 +94,21 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .formpage {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+
+    form label.top input, form label.top select {
+        width: 96%;
+        max-width: 100%;
+    }
+    
+      form textarea {
+        width: 92%;
+        max-width: 92%;
+    }
+
     .contactbox {
         grid-template-columns: 1fr 1fr;
     }

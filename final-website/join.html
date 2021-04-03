@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy City Chamber of Commerce - Join Us</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <div class="headerbox">
+            <img class="centeritems" src="img/logo.png" alt="Logo">
+            <div class="headertext">
+                <h1>Sandy City Chamber of Commerce</h1>
+            </div>
+        </div>
+    </header>
+    <script src="js/hambutton.js"></script>
+    <nav>
+        <div class="navlinks">
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="city.html">OUR CITY</a></li>
+                <li><a class="active" href="join.html">JOIN</a></li>
+                <li><a href="directory.html">DIRECTORY</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <img class="mtn-banner-img" src="img/wasatch-front-banner2.png" alt="Wasatch Mountains">
+    <main class="formpage">
+        <div class="joinIntro">
+            <h2>Join Our Community!</h2>
+            <p>Please fill out the form below and start taking advantage of membership 
+               in our community.
+            </p>
+        </div>
+       
+        <form method="get" action="welcome.html">
+            <fieldset>
+                <label class="top" for="name">First Name:* <input type="text" name="fname" required></label>
+                <label class="top" for="name">Last Name:* <input type="text" name="lname" required></label>
+                <label class="top" for="name">Title: <input type="text" name="title"></label>
+                <label class="top" for="email">Email:* <input type="email" name="email" placeholder="name@domain.com" required></label>
+                <label class="top" for="phone">Cell Number: <input type="tel" name="phone"></label>
+                <label class="top" for="name">Business Name:* <input type="text" name="bizname" required></label>
+                <label class="top" for="name">Business Address: <input type="text" name="bizaddress"></label>
+                <label class="top" for="name">Business Website: <input type="text" name="bizsite"></label>
+                <label class="top" for="comments">Business Description:</label> 
+                <textarea id="bizdescription" name="bizdescription" rows="4"></textarea>
+                <label class="top" for="stormtype">Membership Level:
+                <input list="memberlevel" name="mlevel" id="mlevel"></label>
+                <datalist id="memberlevel">
+                    <option value="Non-Profit ($100)">
+                    <option value="Bronze ($200)">
+                    <option value="Silver ($400)">
+                    <option value="Gold ($1000)">
+                </datalist>
+            </fieldset>
+            <input class="sbmtbtn" type="submit" value="Become a Member!">
+        </form>
+        
+        
+    </main>
+    <footer>
+        <div class="contactbox">
+            <img src="img/sandy-city.png" alt="Map of Sandy City">
+            <div class="contactinfo">
+                <h3>Sandy City Chamber of Commerce</h3>
+                <p>
+                    254 Linux Drive <br>
+                    Sandy, UT 84093
+                </p>
+                <p>
+                    &#9742; 801-999-9876 <br>
+                    &#9993; info@sandycitycomm.org
+                </p>
+                <p class="socialicons">
+                    <img src="img/facebook-white.png" alt="Facebook Icon">
+                    <img src="img/pinterest-white.png" alt="Pinterest Icon">
+                    <img src="img/twitter-white.png" alt="Twitter Icon">
+                </p>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
