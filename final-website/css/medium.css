@@ -94,7 +94,14 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .formpage {
+    .boardgrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .formpage,
+    .contactus,
+    .welcome,
+    .aboutSandy {
         margin: 0 auto;
         max-width: 70%;
     }

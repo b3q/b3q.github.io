@@ -6,4 +6,9 @@
     .bizsection {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .boardgrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
 }
