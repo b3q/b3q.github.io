@@ -100,8 +100,7 @@
 
     .formpage,
     .contactus,
-    .welcome,
-    .aboutSandy {
+    .welcome {
         margin: 0 auto;
         max-width: 70%;
     }

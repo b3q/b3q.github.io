@@ -257,7 +257,9 @@ li a.active {
 
 .sandyevents,
 .sandyweather,
-.boardcards {
+.boardcards,
+.sandyCurrentEvents,
+.aboutSandy {
     margin: 0 auto;
     max-width: 1000px;
 }
