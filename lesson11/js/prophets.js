@@ -19,7 +19,8 @@ fetch(requestURL)
         h5.textContent = 'Place of Birth: ' + prophets[i].birthplace;
         img.setAttribute('src', prophets[i].imageurl);
         img.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order );
- 
+
+        // card.className('dirbizcard');
         card.appendChild(h2);
         card.appendChild(h4);
         card.appendChild(h5);

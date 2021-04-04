@@ -1,0 +1,60 @@
+{
+    "businesses": [
+        {
+            "name": "Paragon Builders",
+            "description": "Blurb about the business.",
+            "website": "http://paragonbuildersutah.com",
+            "email": "info@paragonbuildersutah.com",
+            "imageurl": "img/paragon-200.png"
+        },
+        {
+            "name": "Kuwahara's",
+            "description": "Blurb about the business.",
+            "website": "https://www.kuwaharawholesale.com/",
+            "email": "sarah@kuwaharawholesale.com",
+            "imageurl": "img/kuwaharas-200.png"
+        },
+        {
+            "name": "Thai Mango",
+            "description": "Blurb about the business.",
+            "website": "https://www.thaimangosandy.com/",
+            "email": "info@thaimangosandy.com",
+            "imageurl": "img/taimango-200.png"
+        },
+        {
+            "name": "Business 1",
+            "description": "Blurb about the business.",
+            "website": "htts://bizwebsite.com",
+            "email": "info@biz.com",
+            "imageurl": "img/paragon-200.png"
+        },
+        {
+            "name": "Business 1",
+            "description": "Blurb about the business.",
+            "website": "htts://bizwebsite.com",
+            "email": "info@biz.com",
+            "imageurl": "img/paragon-200.png"
+        },
+        {
+            "name": "Business 1",
+            "description": "Blurb about the business.",
+            "website": "htts://bizwebsite.com",
+            "email": "info@biz.com",
+            "imageurl": "img/paragon-200.png"
+        },
+        {
+            "name": "Business 1",
+            "description": "Blurb about the business.",
+            "website": "htts://bizwebsite.com",
+            "email": "info@biz.com",
+            "imageurl": "img/paragon-200.png"
+        },
+        {
+            "name": "Business 1",
+            "description": "Blurb about the business.",
+            "website": "htts://bizwebsite.com",
+            "email": "info@biz.com",
+            "imageurl": "img/paragon-200.png"
+        }
+    ]
+}
