@@ -250,6 +250,14 @@ li a.active {
     color: #3B3F3F;
 }
 
+.aboutSandytext {
+    color: white;
+    background-color: #546D9C;
+    padding: 20px;
+    margin-top: -3px;
+    line-height: 1.5em;
+}
+
 .aboutSandy img {
     margin-top: 20px;
     width: 100%;
@@ -266,6 +274,10 @@ li a.active {
 }
 
 .sandyevents img {
+    width: 100%;
+}
+
+.eventandimage img {
     width: 100%;
 }
 
@@ -341,6 +353,10 @@ li a.active {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     margin: 10px 0;
+}
+
+.theevent {
+    margin-top: -3px;
 }
 
 .theevent,

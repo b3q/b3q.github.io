@@ -22,39 +22,39 @@
             "imageurl": "img/taimango-200.png"
         },
         {
-            "name": "Business 1",
+            "name": "Greenify Energy Savors",
             "description": "Blurb about the business.",
-            "website": "htts://bizwebsite.com",
-            "email": "info@biz.com",
-            "imageurl": "img/paragon-200.png"
+            "website": "https://greenifyenergysavers.com/",
+            "email": "greenify@hotmail.com",
+            "imageurl": "img/greenify-logo.png"
         },
         {
-            "name": "Business 1",
+            "name": "Cransten Service All Stars",
             "description": "Blurb about the business.",
-            "website": "htts://bizwebsite.com",
-            "email": "info@biz.com",
-            "imageurl": "img/paragon-200.png"
+            "website": "https://cransten.com/",
+            "email": "hello@cransten.com",
+            "imageurl": "img/cransten-logo.png"
         },
         {
-            "name": "Business 1",
+            "name": "Shirlyns Natural Foods",
             "description": "Blurb about the business.",
-            "website": "htts://bizwebsite.com",
-            "email": "info@biz.com",
-            "imageurl": "img/paragon-200.png"
+            "website": "https://www.shirlyns.com/",
+            "email": "support@shirlyns.com",
+            "imageurl": "img/shirlyns-logo.png"
         },
         {
-            "name": "Business 1",
+            "name": "Mountain West Labs",
             "description": "Blurb about the business.",
-            "website": "htts://bizwebsite.com",
-            "email": "info@biz.com",
-            "imageurl": "img/paragon-200.png"
+            "website": "https://mountainwestlabs.com/",
+            "email": "sales@mountainwestlabs.com",
+            "imageurl": "img/mtnwestlabs-logo.png"
         },
         {
-            "name": "Business 1",
+            "name": "Lucas Marc Graphic & Web Design",
             "description": "Blurb about the business.",
-            "website": "htts://bizwebsite.com",
-            "email": "info@biz.com",
-            "imageurl": "img/paragon-200.png"
+            "website": "https://www.lucasmarc.com/",
+            "email": "luke@lucasmarc.com",
+            "imageurl": "img/lucasmarc-logo.png"
         }
     ]
 }

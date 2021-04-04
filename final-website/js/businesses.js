@@ -20,6 +20,7 @@ fetch(requestURL)
         img.setAttribute('alt', businesses[i].name + ' Logo');
         website.setAttribute('href', businesses[i].website);
         website.setAttribute('alt', businesses[i].name + ' website');
+        website.setAttribute('target', '_blank');
         email.setAttribute('href', 'mailto:' + businesses[i].email);
         email.setAttribute('alt', 'business email');
 
