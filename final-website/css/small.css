@@ -380,7 +380,15 @@ li a.active {
 
 .theevent a,
 .boardmember a {
-    color: #546D9C;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    background-color: #3A8835;
+    margin-top: 10px;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .theevent h3
