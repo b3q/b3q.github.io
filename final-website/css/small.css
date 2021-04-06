@@ -250,6 +250,17 @@ li a.active {
     color: #3B3F3F;
 }
 
+.aboutSandy h3 {
+    color: white;
+}
+
+.aboutSandy a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 800;
+    text-decoration: none;
+}
+
 .aboutSandytext {
     color: white;
     background-color: #546D9C;
